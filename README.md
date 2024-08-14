@@ -36,6 +36,14 @@ Then we draw the obtained 8 colors and the 8 colors specified by "answer" in the
 Obviously, we get the correct result.
 ![Figure_1](https://github.com/user-attachments/assets/7eb80eaf-59b6-44ca-9538-c914847645c1)
 
+Conversion method
+
+```
+r = 1.164*y + 1.596 * (v - 128)                    
+g = 1.164*y - 0.392 * (u - 128) - 0.813 * (v - 128)
+b = 1.164*y + 2.017 * (u - 128)                    
+```
+
 ## Chinese
 
 程序中有两个数组，它们是相互对应的，各自均存储了8种颜色。
@@ -46,3 +54,11 @@ Obviously, we get the correct result.
 
 显然，我们得到了正确的结果。
 ![Figure_1](https://github.com/user-attachments/assets/7eb80eaf-59b6-44ca-9538-c914847645c1)
+
+转换方式
+
+```
+r = 1.164*y + 1.596 * (v - 128)                    
+g = 1.164*y - 0.392 * (u - 128) - 0.813 * (v - 128)
+b = 1.164*y + 2.017 * (u - 128)                    
+```
